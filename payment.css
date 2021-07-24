@@ -1,0 +1,31 @@
+a{
+    font-family: Roboto,sans-serif;
+    text-decoration: none;
+    color: #00BFBF;
+    font-size: 15px;
+}
+a h1{
+    font-weight:600;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+span{
+    padding: 8px 2px 8px 2px;
+    background-color: #00BFBF;
+    color: white;
+    margin-left: 2px;
+    margin-right: 3px;
+}
+.debit-card,.COD{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+#debit-card-details img{
+    width: 40px;
+}
