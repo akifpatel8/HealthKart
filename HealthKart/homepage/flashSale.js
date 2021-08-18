@@ -101,7 +101,7 @@ function showStudents() {
     });
     img.addEventListener("click", function () {
       addItems(el);
-      window.location.href = "/items/items.html";
+      window.location.href = "../items/items.html";
     });
 
     discount.innerHTML = el.discount;
@@ -215,7 +215,7 @@ function showTrending() {
     });
     img1.addEventListener("click", function () {
       addItems(el);
-      window.location.href = "/items/items.html";
+      window.location.href = "../items/items.html";
     });
     discount1.innerHTML = el.discount;
     another_div1.append(p_att1, discount1, btn1);

@@ -30,6 +30,6 @@ function proceed() {
   ) {
     alert("fill all the details");
   } else {
-    window.location.href = "/payment/payment.html";
+    window.location.href = "../payment/payment.html";
   }
 }

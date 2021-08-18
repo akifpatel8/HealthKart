@@ -108,8 +108,10 @@ function myFunction() {
   }
 }
 function login() {
-  window.location.href = "/login/login.html";
+  window.location.href = "../login/login.html";
 }
 function signup() {
-  window.location.href = "/signup/Signup.html";
+  
+  window.open("../signup/Signup.html")
+  
 }
